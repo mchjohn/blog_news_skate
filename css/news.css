@@ -38,7 +38,7 @@ body {
 .menu a:hover {
   color: rgba(255, 255, 255, 0.747);
   transition: all 0.3s;
-  border-bottom: 1px solid rgb(247, 128, 31);
+  border-bottom: 1px solid #5553c2;
 }
 
 /* Menu Social Midias */
@@ -172,7 +172,7 @@ footer {
   .burger {
     position: relative;
     display: block;
-    background: rgb(247, 128, 31);
+    background: #5553c2;
     width: 30px;
     height: 2px;
     top: 20px;
@@ -181,7 +181,7 @@ footer {
   }
   .burger:before,
   .burger:after {
-    background: rgb(247, 128, 31);
+    background: #5553c2;
     content: '';
     display: block;
     width: 100%;
