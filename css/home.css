@@ -13,6 +13,7 @@ body, html {
 /* Menu */
 .bg-menu {
   background: #1c1818;
+  padding-bottom: 0;
 }
 .container-menu {
   max-width: 960px;
@@ -22,7 +23,6 @@ body, html {
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-  border-bottom: solid 1px #5553c2;
 }
 .menu ul {
   display: flex;
@@ -65,7 +65,9 @@ body, html {
 /* Meunu responsive */
 @media (max-width: 580px) {
   /* menu */
-
+  .bg-menu {
+    padding-bottom: 50px;
+  }
   .menu-hamburger {
     background: #1c1818;
     border-radius: 50%;
@@ -82,7 +84,7 @@ body, html {
   .burger {
     position: relative;
     display: block;
-    background: #98f5f0;
+    background: #5553c2;
     width: 30px;
     height: 2px;
     top: 20px;
@@ -91,7 +93,7 @@ body, html {
   }
   .burger:before,
   .burger:after {
-    background: #98f5f0;
+    background: #5553c2;
     content: '';
     display: block;
     width: 100%;
@@ -130,18 +132,30 @@ body, html {
     max-width: 28px;
     opacity: 1;
   }
+
+  /* Folders */
+  .images-container {
+    width: 990px;
+    padding: 0;
+  }
+  .images-container ul {
+    margin-top: -50px;
+  }
+  .mb {
+    margin-bottom: 5px;
+  }
 }
+/* Fim Mobile */
 
 
-/* Folders News */
+/* Folders */
 .images-bg {
   background: #1c1818;
-  padding-top: 50px;
 }
 .images-container {
   width: 100%;
   margin: 0 auto;
-  padding: 20px;
+  padding: 4px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -154,7 +168,7 @@ body, html {
   margin-bottom: 50px;
 }
 .images-container li {
-  border-top: 1px solid rgb(255, 255, 255);
+  border-top: 1px solid #5553c279;
 }
 .images-container img {
   width: 100%;
