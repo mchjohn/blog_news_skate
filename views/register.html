@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/register.css">
+  <title>Skateboard para todos / Cadastro de Noticia</title>
+</head>
+
+<body>
+  <div class="bg-menu">
+    <div class="container-menu">
+      <nav class="menu">
+        <input type="checkbox" id="menu-burger" style="display: none;">
+
+        <label for="menu-burger">
+
+          <div class="menu-hamburger">
+            <span class="burger"></span>
+          </div> <!-- menu-hamburger -->
+
+        </label> <!-- menu-burger -->
+
+        <div id="menuJs">
+          <ul>
+            <li><a href="../index.html">home</a></li>
+            <li><a href="news.html">notícias</a></li>
+            <li><a href="register.html">cadastro</a></li>
+            <li><a href="galery.html">galeria</a></li>
+            <li><a href="contact.html">contato</a></li>
+          </ul>
+        </div> <!-- menuJs -->
+      </nav> <!-- menu -->
+
+      <div class="social">
+        <div class="img-icon">
+          <a href="https://mchjohn.github.io/meu-portfolio/" target="_blank"><img src="imgs/facebook.png"
+              alt="Meu Portfolio"></a>
+        </div><!-- img-icon 1 -->
+
+        <div class="img-icon">
+          <a href="https://github.com/mchjohn" target="_blank"><img src="imgs/github.png" alt="GitHub"></a>
+        </div><!-- img-icon 2 -->
+
+        <div class="img-icon">
+          <a href="https://www.linkedin.com/in/micheljohn/" target="_blank"><img src="imgs/linkedin.png"
+              alt="Linkedin"></a>
+        </div><!-- img-icon 3 -->
+
+        <div class="img-icon">
+          <a href="https://www.youtube.com/channel/UCbF5wo-J16Ubzjk3v1qgbwQ?view_as=subscriber" target="_blank"><img
+              src="imgs/youtube.png" alt="YouTube"></a>
+        </div><!-- img-icon 4 -->
+
+      </div><!-- social -->
+
+    </div><!-- container-menu -->
+
+  </div><!-- bg-menu -->
+
+  <div class="hs">
+    <h1>Cadastro de Notícias</h1>
+    <h2>Preencha os campos para cadastrar sua notícia.</h2>
+  </div>
+
+  <div class="container-form-news">
+    <form action="news/saved" method="POST" class="form_news">
+      <div class="field">
+        <label for="title">Título da Notícia</label>
+        <input type="text" name="title" id="title" placeholder="Digite o título da sua noticia">
+      </div>
+
+      <div class="field">
+        <label for="autor">Autor da Notícia</label>
+        <input type="text" name="autor" id="autor" placeholder="Digite o nome do autor">
+      </div>
+
+      <div class="field">
+        <label for="resume">Resumo da Notícia</label>
+        <input type="text" name="resume" id="resume" placeholder="Digite o resumo">
+      </div>
+
+      <div class="field">
+        <label for="news">Sua Notícia</label>
+        <textarea name="news" id="news" placeholder="Digite sua notícia"></textarea>
+      </div>
+      <button type="submit">enviar</button>
+    </form>
+  </div>
+</body>
+
+</html>
