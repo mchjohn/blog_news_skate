@@ -226,4 +226,16 @@ footer {
   .posts li {
     margin-bottom: 70px;
   }
+
+  /* Footer */
+  .copyright {
+    border-top: none;
+    margin-top: 0;
+  }
+  footer .borda {
+    width: 240px;
+    border-top: 1px solid rgba(221, 221, 221, 0.603);
+    margin: 0 auto;
+    padding: 0;
+  }
 }
