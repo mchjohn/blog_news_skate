@@ -12,9 +12,10 @@
 
   <img src="https://github.com/mchjohn/blog_news_skate/blob/master/imgs/folder6.png" />
 
-_Stack utilizada: HTML5, CSS3, JS, bcrypt, body-parser, Cloudinary, cookie-parser, EJS, Express, Multer, MySQL, Sequelize, Slugify_
+_Stack utilizada: HTML5, CSS3, JS, TinyMCE, bcrypt, body-parser, Cloudinary, cookie-parser, EJS, Express, Multer, MySQL, Sequelize, Slugify_
 
 Você pode conferir o site (front-end) [clicando aqui](https://mchjohn.github.io/blog_news_skate/)
+
 Projeto completo [clicando aqui](https://github.com/mchjohn/skate-for-all)
 
 ### Imagem Demonstrativa
